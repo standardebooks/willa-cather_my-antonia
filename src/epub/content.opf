@@ -60,7 +60,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/242</dc:source>
 		<dc:source>https://archive.org/details/myntonia00cathgoog</dc:source>
-		<meta property="se:production-notes">In Book 3, Chapter 4, two phrases are marked as French and italicized: noblesse oblige and amour propre. Although these appear in the Merriam Webster dictionary, a decision has been made to consider them foreign here, because they are sufficiently obscure and because the character speaking is meant to come across as learned and pretentious. They are italicized in the page scans.</meta>
+		<meta property="se:production-notes">1. In Book 3, Chapter 4, two phrases are marked as French and italicized: noblesse oblige and amour propre. Although these appear in the Merriam Webster dictionary, a decision has been made to consider them foreign here, because they are sufficiently obscure and because the character speaking is meant to come across as learned and pretentious. They are italicized in the page scans. 2. In Book 1, Chapter 4, the text refers to “Fuchs’s story.” The page scans say “Jake’s story,” though later editions of the book have “Fuchs’s story.” It's likely that “Jake’s story” is an error in the first edition, since it is indeed Fuchs who has just told a story. An editorial decision has been made to retain “Fuchs’s story” from the e-text for this edition.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/My_%C3%81ntonia</meta>
