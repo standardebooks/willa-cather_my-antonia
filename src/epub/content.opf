@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/willa-cather/my-antonia</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2019-04-01T18:44:12Z</dc:date>
+		<meta property="dcterms:modified">2019-04-01T18:44:12Z</meta>
 		<meta property="se:revision-number">0</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -53,10 +53,11 @@
 		<meta property="meta-auth" refines="#subject-10">https://www.gutenberg.org/ebooks/242</meta>
 		<meta property="meta-auth" refines="#subject-11">https://www.gutenberg.org/ebooks/242</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta property="se:collection">Prairie Trilogy</meta>
 		<dc:description id="description">Orphaned boy Jim meets Ántonia, the daughter of a Czech family who has immigrated to Nebraska.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Written in the style of a memoir, &lt;i&gt;My Ántonia&lt;/i&gt; chronicles Jim Burden’s friendship with the daughter of a Czech immigrant family. Recently orphaned, he moves west to Nebraska to live with his grandparents. Riding the same train, the Shimerda family is also on their way to settle in the area. The Shimerdas have a difficult life as pioneers, living in a sod house, working the fields, and running out of food in the winter. Jim soon becomes smitten with Ántonia, the eldest daughter, as they grow up and explore the landscape around them together. Through his eyes, we see both how she shapes the land around her and is shaped by the rigors of poverty.&lt;/p&gt;
+			&lt;p&gt;Written in the style of a memoir, &lt;i&gt;My Ántonia&lt;/i&gt; chronicles Jim Burden’s friendship with the daughter of a Czech immigrant family. Recently orphaned, he moves west to Nebraska to live with his grandparents. Riding the same train is the Shimerda family, who are also on their way to settle in the area. The Shimerdas have a difficult life as pioneers: living in a sod house, working the fields, and running out of food in the winter. Jim soon becomes smitten with Ántonia, the eldest daughter, as they grow up and explore the landscape around them together. Through his eyes, we see both how she shapes the land around her and is shaped by the rigors of poverty.&lt;/p&gt;
 			&lt;p&gt;Similarly to Jim, Willa Cather spent her early years in Nebraska but most of her adult life in Eastern cities. She pays homage to her homeland with her Prairie Trilogy of novels, comprised of &lt;i&gt;O Pioneers!&lt;/i&gt;, &lt;i&gt;The Song of the Lark&lt;/i&gt;, and &lt;i&gt;My Ántonia&lt;/i&gt;. They are tinged with her characteristic straightforward language, reverence for nature, and nostalgia, even as she acknowledges the hardships of the past.&lt;/p&gt;
 			&lt;p&gt;Published in 1918 to great enthusiasm, &lt;i&gt;My Ántonia&lt;/i&gt; is considered one of Cather’s finest works and a defining point in her identity as a writer.&lt;/p&gt;
 		</meta>
@@ -65,8 +66,8 @@
 		<dc:source>https://www.gutenberg.org/ebooks/242</dc:source>
 		<dc:source>https://archive.org/details/myntonia00cathgoog</dc:source>
 		<meta property="se:production-notes">1. In general, a number of things have changed from the Gutenberg text during proofreading. Their text comes from a different edition from the first-edition page scans. Among other things, their text uses British spelling and quotations, which have been changed to American style to match the page scans. 2. In Book 3, Chapter 4, two phrases are marked as French and italicized: noblesse oblige and amour propre. Although these appear in the Merriam Webster dictionary, a decision has been made to consider them foreign here, because they are sufficiently obscure and because the character speaking is meant to come across as learned and pretentious. They are italicized in the page scans. 3. In Book 1, Chapter 4, the text refers to “Fuchs’s story.” The page scans say “Jake’s story,” though later editions of the book have “Fuchs’s story.” It's likely that “Jake’s story” is an error in the first edition, since it is indeed Fuchs who has just told a story. An editorial decision has been made to retain “Fuchs’s story” from the e-text for this edition. 4. There seems to be some inconsistency with references to people's homes, such as the Cutters’ versus the Cutters. In general, the text has been kept to match the page scans, as one could read them as referring to, say, the Cutters’ house or the Cutters themselves. However, in Book 2, Chapter 12, there is a clear error in “the Cutter’s yard,” which has been changed here to “the Cutters’ yard.” In Book 4, Chapter 2, “the Harling’s Tony” has been changed to “the Harlings’ Tony.”</meta>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		<meta property="se:word-count">82768</meta>
+		<meta property="se:reading-ease.flesch">80.31</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/My_%C3%81ntonia</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/willa-cather_my-antonia</meta>
 		<dc:creator id="author">Willa Cather</dc:creator>
@@ -99,6 +100,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
