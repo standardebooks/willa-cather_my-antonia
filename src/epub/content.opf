@@ -27,7 +27,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">My Ántonia</dc:title>
 		<meta property="file-as" refines="#title">My Ántonia</meta>
 		<dc:subject id="subject-1">Nebraska -- Fiction</dc:subject>
@@ -41,27 +41,36 @@
 		<dc:subject id="subject-9">Women immigrants -- Fiction</dc:subject>
 		<dc:subject id="subject-10">Farmers’ spouses -- Fiction</dc:subject>
 		<dc:subject id="subject-11">Czech Americans -- Fiction</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/242</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/242</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/242</meta>
-		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/242</meta>
-		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/242</meta>
-		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/242</meta>
-		<meta property="meta-auth" refines="#subject-7">https://www.gutenberg.org/ebooks/242</meta>
-		<meta property="meta-auth" refines="#subject-8">https://www.gutenberg.org/ebooks/242</meta>
-		<meta property="meta-auth" refines="#subject-9">https://www.gutenberg.org/ebooks/242</meta>
-		<meta property="meta-auth" refines="#subject-10">https://www.gutenberg.org/ebooks/242</meta>
-		<meta property="meta-auth" refines="#subject-11">https://www.gutenberg.org/ebooks/242</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh2008116259</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh85146287</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh86004353</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
+		<meta property="term" refines="#subject-5">sh2008103509</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
+		<meta property="term" refines="#subject-6">sh2008107257</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
+		<meta property="term" refines="#subject-7">sh2008103545</meta>
+		<meta property="authority" refines="#subject-8">LCSH</meta>
+		<meta property="term" refines="#subject-8">sh2008113344</meta>
+		<meta property="authority" refines="#subject-9">LCSH</meta>
+		<meta property="term" refines="#subject-9">sh2008113496</meta>
+		<meta property="authority" refines="#subject-10">LCSH</meta>
+		<meta property="term" refines="#subject-10">Unknown</meta>
+		<meta property="authority" refines="#subject-11">LCSH</meta>
+		<meta property="term" refines="#subject-11">sh2009122741</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:collection">Prairie Trilogy</meta>
 		<dc:description id="description">Orphaned boy Jim meets Ántonia, the daughter of a Czech family who has immigrated to Nebraska.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Written in the style of a memoir, &lt;i&gt;My Ántonia&lt;/i&gt; chronicles Jim Burden’s friendship with the daughter of a Czech immigrant family. Recently orphaned, he moves west to Nebraska to live with his grandparents. Riding the same train is the Shimerda family, who are also on their way to settle in the area. The Shimerdas have a difficult life as pioneers: living in a sod house, working the fields, and running out of food in the winter. Jim soon becomes smitten with Ántonia, the eldest daughter, as they grow up and explore the landscape around them together. Through his eyes, we see both how she shapes the land around her and is shaped by the rigors of poverty.&lt;/p&gt;
 			&lt;p&gt;Similarly to Jim, Willa Cather spent her early years in Nebraska but most of her adult life in Eastern cities. She pays homage to her homeland with her Prairie Trilogy of novels, comprised of &lt;i&gt;O Pioneers!&lt;/i&gt;, &lt;i&gt;The Song of the Lark&lt;/i&gt;, and &lt;i&gt;My Ántonia&lt;/i&gt;. They are tinged with her characteristic straightforward language, reverence for nature, and nostalgia, even as she acknowledges the hardships of the past.&lt;/p&gt;
 			&lt;p&gt;Published in 1918 to great enthusiasm, &lt;i&gt;My Ántonia&lt;/i&gt; is considered one of Cather’s finest works and a defining point in her identity as a writer.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/242</dc:source>
 		<dc:source>https://archive.org/details/myntonia00cathgoog</dc:source>
