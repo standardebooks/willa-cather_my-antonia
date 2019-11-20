@@ -72,18 +72,50 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
+/* All dedications */
 section[epub|type~="dedication"]{
 	text-align: center;
-	font-variant: small-caps;
 }
 
+section[epub|type~="dedication"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+	text-align: left;
+}
+
+@supports(display: flex){
+	section[epub|type~="dedication"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="dedication"] > *{
+		margin: 0;
+	}
+
+	section[epub|type~="dedication"] > * + *{
+		margin-top: 3em;
+	}
+}
+/* End all dedications */
+
 section[epub|type~="dedication"] p{
-	margin: 25% auto;
+	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
 }
 
-section[epub|type~="dedication"] b{
-	font-style: italic;
+section[epub|type~="dedication"] p + p{
+	margin-top: 1em;
+}
+
+section[epub|type~="dedication"] i{
 	font-variant: normal;
 }
