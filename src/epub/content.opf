@@ -64,7 +64,8 @@
 		<meta property="authority" refines="#subject-11">LCSH</meta>
 		<meta property="term" refines="#subject-11">sh2009122741</meta>
 		<meta property="se:subject">Fiction</meta>
-		<meta property="se:collection">Prairie Trilogy</meta>
+		<meta property="belongs-to-collection" id="collection-1">Prairie Trilogy</meta>
+		<meta property="collection-type" refines="collection-1">series</meta>
 		<dc:description id="description">Orphaned boy Jim meets Ántonia, the daughter of a Czech family who has immigrated to Nebraska.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Written in the style of a memoir, &lt;i&gt;My Ántonia&lt;/i&gt; chronicles Jim Burden’s friendship with the daughter of a Czech immigrant family. Recently orphaned, he moves west to Nebraska to live with his grandparents. Riding the same train is the Shimerda family, who are also on their way to settle in the area. The Shimerdas have a difficult life as pioneers: living in a sod house, working the fields, and running out of food in the winter. Jim soon becomes smitten with Ántonia, the eldest daughter, as they grow up and explore the landscape around them together. Through his eyes, we see both how she shapes the land around her and is shaped by the rigors of poverty.&lt;/p&gt;
