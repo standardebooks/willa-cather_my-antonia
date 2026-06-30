@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/willa-cather/my-antonia</dc:identifier>
 		<dc:date>2019-04-01T18:44:12Z</dc:date>
 		<meta property="dcterms:modified">2019-04-01T18:44:12Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -62,7 +63,7 @@
 		<meta property="term" refines="#subject-10">Unknown</meta>
 		<meta property="authority" refines="#subject-11">LCSH</meta>
 		<meta property="term" refines="#subject-11">sh2009122741</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<meta id="collection-1" property="belongs-to-collection">Prairie Trilogy</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">3</meta>
@@ -78,23 +79,24 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/242</dc:source>
 		<dc:source>https://archive.org/details/myntonia00cathgoog</dc:source>
-		<meta property="se:production-notes">1. In general, a number of things have changed from the Gutenberg text during proofreading. Their text comes from a different edition from the first-edition page scans. Among other things, their text uses British spelling and quotations, which have been changed to American style to match the page scans. 2. In Book 3, Chapter 4, two phrases are marked as French and italicized: noblesse oblige and amour propre. Although these appear in the Merriam Webster dictionary, a decision has been made to consider them foreign here, because they are sufficiently obscure and because the character speaking is meant to come across as learned and pretentious. They are italicized in the page scans. 3. In Book 1, Chapter 4, the text refers to “Fuchs’s story.” The page scans say “Jake’s story,” though later editions of the book have “Fuchs’s story.” It's likely that “Jake’s story” is an error in the first edition, since it is indeed Fuchs who has just told a story. An editorial decision has been made to retain “Fuchs’s story” from the e-text for this edition. 4. There seems to be some inconsistency with references to people's homes, such as the Cutters’ versus the Cutters. In general, the text has been kept to match the page scans, as one could read them as referring to, say, the Cutters’ house or the Cutters themselves. However, in Book 2, Chapter 12, there is a clear error in “the Cutter’s yard,” which has been changed here to “the Cutters’ yard.” In Book 4, Chapter 2, “the Harling’s Tony” has been changed to “the Harlings’ Tony.”</meta>
-		<meta property="se:word-count">81493</meta>
-		<meta property="se:reading-ease.flesch">80.31</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/My_%C3%81ntonia</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/willa-cather_my-antonia</meta>
+		<meta property="schema:wordCount">81493</meta>
+		<meta property="schema:educationalLevel">80.31</meta>
+		<link href="https://en.wikipedia.org/wiki/My_%C3%81ntonia" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/willa-cather_my-antonia" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Willa Cather</dc:creator>
 		<meta property="file-as" refines="#author">Cather, Willa</meta>
-		<meta property="se:name.person.full-name" refines="#author">Willa Sibert Cather</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Willa_Cather</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80015717</meta>
+		<meta property="schema:alternateName" refines="#author">Willa Sibert Cather</meta>
+		<link href="https://en.wikipedia.org/wiki/Willa_Cather" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80015717.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">Vincent van Gogh</dc:contributor>
 		<meta property="file-as" refines="#artist">van Gogh, Vincent</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Vincent_van_Gogh</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79022935</meta>
+		<link href="https://en.wikipedia.org/wiki/Vincent_van_Gogh" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79022935.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Judith Boss</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Boss, Judith</meta>
@@ -104,11 +106,11 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-3">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-3" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Mitchell Jacobs</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Jacobs, Mitchell</meta>
-		<meta property="se:url.homepage" refines="#producer-1">http://mitchellbjacobs.com/</meta>
+		<link href="http://mitchellbjacobs.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -117,7 +119,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
