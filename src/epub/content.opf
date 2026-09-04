@@ -30,17 +30,17 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">My Ántonia</dc:title>
 		<meta property="file-as" refines="#title">My Ántonia</meta>
-		<dc:subject id="subject-1">Nebraska -- Fiction</dc:subject>
-		<dc:subject id="subject-2">Frontier and pioneer life -- Nebraska -- Fiction</dc:subject>
+		<dc:subject id="subject-1">Nebraska--Fiction</dc:subject>
+		<dc:subject id="subject-2">Frontier and pioneer life--Nebraska--Fiction</dc:subject>
 		<dc:subject id="subject-3">Western stories</dc:subject>
 		<dc:subject id="subject-4">Domestic fiction</dc:subject>
-		<dc:subject id="subject-5">Friendship -- Fiction</dc:subject>
-		<dc:subject id="subject-6">Married women -- Fiction</dc:subject>
-		<dc:subject id="subject-7">Farm life -- Fiction</dc:subject>
-		<dc:subject id="subject-8">Women pioneers -- Fiction</dc:subject>
-		<dc:subject id="subject-9">Women immigrants -- Fiction</dc:subject>
-		<dc:subject id="subject-10">Farmers’ spouses -- Fiction</dc:subject>
-		<dc:subject id="subject-11">Czech Americans -- Fiction</dc:subject>
+		<dc:subject id="subject-5">Friendship--Fiction</dc:subject>
+		<dc:subject id="subject-6">Married women--Fiction</dc:subject>
+		<dc:subject id="subject-7">Farm life--Fiction</dc:subject>
+		<dc:subject id="subject-8">Women pioneers--Fiction</dc:subject>
+		<dc:subject id="subject-9">Women immigrants--Fiction</dc:subject>
+		<dc:subject id="subject-10">Farmers’ spouses--Fiction</dc:subject>
+		<dc:subject id="subject-11">Czech Americans--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008116259</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
